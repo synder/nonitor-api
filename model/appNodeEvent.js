@@ -2,7 +2,7 @@
  * Created by synder on 16/4/25.
  */
 
-var conn = require('../../database/monitor').conn;
+var conn = require('../database/monitor').conn;
 
 var AppNodeEvent = conn.model('AppNodeEvent');
 

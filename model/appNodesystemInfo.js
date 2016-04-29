@@ -3,7 +3,7 @@
  */
 
 
-var conn = require('../../database/monitor').conn;
+var conn = require('../database/monitor').conn;
 
 var AppNodeSystemInfo = conn.model('AppNodeSystemInfo');
 

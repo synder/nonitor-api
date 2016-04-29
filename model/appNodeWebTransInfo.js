@@ -3,7 +3,7 @@
  */
 
 
-var conn = require('../../database/monitor').conn;
+var conn = require('../database/monitor').conn;
 
 var AppNodeWebTransInfo = conn.model('AppNodeWebTransInfo');
 var AppWebTransException = conn.model('AppWebTransException');
